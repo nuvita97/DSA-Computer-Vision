@@ -1,5 +1,8 @@
 # Ignore all JPEG files
 *.jpg
 
+# Ignore Joblib model files
+*.joblib
+
 # Jupyter Notebook
 .ipynb_checkpoints
