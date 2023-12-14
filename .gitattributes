@@ -1,1 +1,1 @@
-Lab_01/digit-recognizer/*.joblib filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
