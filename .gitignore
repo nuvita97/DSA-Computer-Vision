@@ -4,5 +4,12 @@
 # Ignore Joblib model files
 *.joblib
 
+# Train & Test directories
+**/train/
+**/test/
+
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# MacOS files
+**/.DS_Store
