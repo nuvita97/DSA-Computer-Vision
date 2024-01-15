@@ -8,7 +8,7 @@ from keras.preprocessing.image import img_to_array
 
 # Function to detect object from the best YOLOv8 model
 def detect_animals(image):
-    model = YOLO("runs/detect/train8/weights/best.pt")
+    model = YOLO("runs/detect/train2/weights/best.pt")
     results = model.predict(image)
     result = results[0]
     
