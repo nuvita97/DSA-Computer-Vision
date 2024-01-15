@@ -4,9 +4,11 @@
 # Ignore Joblib model files
 *.joblib
 
-# Train & Test directories
+# Images directories
 **/train/
 **/test/
+**/val/
+**/images/
 
 # Jupyter Notebook
 .ipynb_checkpoints
